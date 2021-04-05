@@ -1,0 +1,25 @@
+.oper {
+    width: 100px;
+    height: 120px;
+    font-size: 45px;
+    color: rgb(29, 199, 6);
+    background-color: black;
+    border-radius: 5px;
+}
+
+.butt {
+    width: 100px;
+    height: 120px;
+    font-size: 35px;
+    color: darkgoldenrod;
+    background-color: black;
+}
+
+#txt1 {
+    width: 310px;
+    height: 120px;
+    font-size: 35px;
+    border-style: solid;
+    s background-color: black;
+    color: darkgoldenrod;
+}

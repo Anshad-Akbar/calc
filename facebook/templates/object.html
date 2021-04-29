@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        person = [
+
+            {
+                name: 'bilal',
+                age: 22,
+                phno: 84513544,
+            }, {
+                name: 'aswin',
+                age: 22,
+                phno: 845165444
+            }, {
+                name: 'manu',
+                age: 22,
+                phno: 84514864,
+            }
+        ]
+    </script>
+
+    <table align="center" width="40%" border="1">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>PHONE</th>
+        </tr>
+
+
+
+        <script>
+            for (i = 0; i < person.length; i++) {
+
+                document.write("<tr><td>" + person[i]['name'] + "</td><td>" + person[i]['age'] + "</td><td>" + person[i]['phno'] + "</td></tr> ")
+            }
+        </script>
+    </table> -->
+    <br>
+    <br>
+    <br>
+
+
+    <form name="f1" method="POST" onsubmit="return test()">
+        <input type="text" name="t1" placeholder="enter youer name" id=txt>
+        <label id="lbl1" style="color: red;"></label>
+        <button>submit</button>
+    </form>
+    <script>
+        function test() {
+            name = document.forms['f1']['t1'].value
+            if (name.length < 5) {
+                document.getElementById('lbl1').innerHTML = "short length"
+                return false
+
+
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

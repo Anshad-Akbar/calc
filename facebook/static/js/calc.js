@@ -12,7 +12,7 @@ function res() {
     document.getElementById('txt1').value = " "
 
     if (sign == '+') {
-        sum = num1 + num2
+        sum = num1 + num2 + num3
         document.getElementById('txt1').value = sum
 
     } else if (sign == '-') {
